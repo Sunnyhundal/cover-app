@@ -5,6 +5,7 @@ import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Nav from "./components/Nav";
+import Footer from "./components/Footer";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -16,6 +17,7 @@ function App() {
         <Routes>
           <Route path="*" element={<h1>Not Found</h1>} />
         </Routes>
+        <Footer />
       </BrowserRouter>
     </>
   );
