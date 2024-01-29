@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Nav from "./components/Nav";
 import Footer from "./components/Footer";
+import Header from "./components/Header";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -14,9 +15,7 @@ function App() {
     <>
       <BrowserRouter>
         <Nav />
-        <Routes>
-          <Route path="*" element={<h1>Not Found</h1>} />
-        </Routes>
+          <Header />
         <Footer />
       </BrowserRouter>
     </>

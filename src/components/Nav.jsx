@@ -12,7 +12,7 @@ den"
           >
             <NavLink
               to="/"
-              className="text-white px-3 py-2 text-xl font-medium"
+              className="text-white font-bookmania2 cursor-pointer px-3 py-2 text-xl font-medium"
             >
               Sunny Hundal
             </NavLink>
@@ -23,19 +23,19 @@ den"
               <div className="flex space-x-4">
                 <NavLink
                   to="/"
-                  className="text-white px-3 py-2 text-xl font-medium hover: rounded-md bg-gray-700"
+                  className="text-white px-3 py-2 text-xl font-medium hover: rounded-lg bg-gray-700"
                 >
                   Home
                 </NavLink>
                 <NavLink
                   to="/about"
-                  className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 text-xl font-medium"
+                  className="text-gray-300 hover:bg-gray-700 hover:rounded-lg hover:text-white px-3 py-2 text-xl font-medium"
                 >
                   About
                 </NavLink>
                 <NavLink
                   to="/contact"
-                  className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 text-xl font-medium"
+                  className="text-gray-300 hover:bg-gray-700 hover:rounded-lg hover:text-white px-3 py-2 text-xl font-medium"
                 >
                   Contact
                 </NavLink>
